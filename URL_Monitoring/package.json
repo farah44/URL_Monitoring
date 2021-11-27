@@ -1,21 +1,31 @@
 {
-  "name": "url_monitoring",
+  "name": "express-app1",
   "version": "0.0.0",
   "private": true,
+
   "scripts": {
-    "start": "node app"
+    "start": "node app",
+    "test": "jest test/**.test.js"
   },
-  "description": "URL_Monitoring",
+  "description": "ExpressApp1",
   "author": {
     "name": ""
   },
   "dependencies": {
-    "body-parser": "^1.15.0",
-    "cookie-parser": "^1.4.0",
+    "axios": "^0.24.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "crypto-js": "^4.1.1",
     "debug": "^2.2.0",
+    "dotenv": "^9.0.0",
+    "ejs": "^3.1.6",
     "express": "^4.14.0",
-    "morgan": "^1.7.0",
-    "pug": "^2.0.0-beta6",
-    "serve-favicon": "^2.3.0"
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.7",
+    "nodemailer": "^6.6.0",
+    "ping-monitor": "^0.6.2"
   }
+ 
+
 }
